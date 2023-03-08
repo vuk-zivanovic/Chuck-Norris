@@ -1,0 +1,76 @@
+body {
+  background-color: orange;
+  font-family: "Chuck Norris", "Helvetica";
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#title {
+  text-align: center;
+  font-size: 6vw;
+}
+
+#joke-box {
+  background-color: #c00000;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 20%;
+}
+
+#pre-joke-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 20%;
+}
+
+#dropdown-div {
+  position: relative;
+  left: 2rem;
+}
+
+#btn {
+  font-family: "Chuck Norris", "Helvetica";
+  height: 4vw;
+  font-size: 2vw;
+}
+
+#joke-selector {
+  font-size: 2vw;
+}
+
+#joke-screen {
+  padding: 12% 5%;
+  text-align: center;
+  font-size: 3.2vw;
+}
+
+@media screen and (min-width: 750px) {
+  img {
+    width: 150px;
+  }
+
+  #title {
+    font-size: 46px;
+  }
+
+  #btn {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  #joke-box {
+    width: 600px;
+  }
+
+  #joke-screen {
+    font-size: 24px;
+  }
+}
